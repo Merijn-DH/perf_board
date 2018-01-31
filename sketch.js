@@ -158,7 +158,7 @@ function keyPressed() {
     colorWire(255,160,0);
   }
   }
-  if (key == '»') {
+  if (key == '»' || key == '=') {
     typing = !typing;
     if (typing) {
       tool = 1;
