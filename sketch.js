@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(0, 0, 80);
   stroke(150);
   strokeWeight(1);
   for (let x = 0; x < width; x += tileSize) {
