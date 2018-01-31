@@ -127,7 +127,7 @@ function keyPressed() {
     tool = 3;
   }
 
-  if (keyCode == BACKSPACE) {
+  if (keyCode == BACKSPACE || keyCode == DELETE) {
     for (let i = 0; i < wires.length; i++) {
       if (wires[i].selected) {
         wires.splice(i,1);
